@@ -9,8 +9,8 @@ import cat.itb.m78.exercices.App
 
 fun main() = application {
     Window(
-        title = "M78Exercices",
-        state = rememberWindowState(width = 800.dp, height = 600.dp),
+        title = "MiawMiaw",
+        state = rememberWindowState(width = 1280.dp, height = 720.dp),
         onCloseRequest = ::exitApplication,
     ) {
         window.minimumSize = Dimension(350, 600)

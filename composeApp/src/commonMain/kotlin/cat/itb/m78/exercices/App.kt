@@ -1,6 +1,7 @@
 package cat.itb.m78.exercices
 
 
+import ExercicisCompose.HelloWorldApp
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -11,7 +12,10 @@ import org.jetbrains.compose.reload.DevelopmentEntryPoint
 
 @Composable
 internal fun App() = AppTheme {
-    Box(Modifier.fillMaxSize()){
+    /*Box(Modifier.fillMaxSize()){
         Text("Your app goes here!", Modifier.align(Alignment.Center))
+    }*/
+    Box(Modifier.fillMaxSize()){
+        HelloWorldApp()
     }
 }
